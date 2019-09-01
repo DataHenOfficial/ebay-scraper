@@ -17,6 +17,6 @@ exporters:
     disabled: false
 env_vars:
   - name: start_url
-    global_name: ebay_start_url
+    global_name: EBAY_START_URL
   - name: somesecret
     secret: true
