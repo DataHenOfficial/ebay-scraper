@@ -1,6 +1,9 @@
 seeder:
   file: ./seeder/seeder.rb
   disabled: false
+finisher:
+  file: ./finisher/finisher.rb
+  disabled: false
 parsers:
   - page_type: listings
     file: ./parsers/listings.rb
