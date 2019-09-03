@@ -1,4 +1,4 @@
-scraper_image: gcr.io/answers-engine-cloud/accord-scraper-worker-libreoffice
+scraper_image: gcr.io/answers-engine-cloud/tordatascience-scraper-worker-s3cmd
 seeder:
   file: ./seeder/seeder.rb
   disabled: false
