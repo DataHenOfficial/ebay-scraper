@@ -18,7 +18,21 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
-env_vars:
+input_vars:
   - name: start_url
-    global_name: EBAY_START_URL
-  - name: somesecret
+    title: Start URL
+    description: Enter the starting page for the scraper to run
+    default: https://www.ebay.com/sch/i.html?_nkw=macbooks
+    input_type: text
+    required: true
+  - name: secret1
+    input_type: secret
+    required: true
+  - name: date1
+    input_type: date
+  - name: datetime1
+    input_type: datetime
+  - name: string1
+    input_type: string
+  - name: text1
+    input_type: text
