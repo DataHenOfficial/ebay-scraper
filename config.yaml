@@ -23,19 +23,19 @@ input_vars:
     title: Start URL
     description: Enter the starting page for the scraper to run
     default: https://www.ebay.com/sch/i.html?_nkw=macbooks
-    input_type: text
+    type: text
     required: true
   - name: secret1
-    input_type: secret
+    type: secret
     required: true
   - name: date1
-    input_type: date
+    type: date
   - name: datetime1
-    input_type: datetime
+    type: datetime
   - name: string1
-    input_type: string
+    type: string
   - name: text1
-    input_type: text
+    type: text
   - name: defaulttext1
-    input_type: text
+    type: text
     default: somedefault text
