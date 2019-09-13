@@ -36,3 +36,6 @@ input_vars:
     input_type: string
   - name: text1
     input_type: text
+  - name: defaulttext1
+    input_type: text
+    default: somedefault text
