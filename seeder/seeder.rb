@@ -11,5 +11,6 @@ outputs << {
   date1: ENV['date1'],
   datetime1: ENV['datetime1'],
   string1: ENV['string1'],
-  text1: ENV['text1']
+  text1: ENV['text1'],
+  defaulttext1: ENV['defaulttext1']
 }
