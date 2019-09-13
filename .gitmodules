@@ -1,0 +1,3 @@
+[submodule "sharedcodes"]
+	path = sharedcodes
+	url = https://github.com/answersengine/sharedcodes.git
