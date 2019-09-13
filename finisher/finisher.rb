@@ -1,5 +1,5 @@
 outputs << {
-  _collection: 'env_vars',
+  _collection: 'input_vars',
   _id: 'finisher',
   start_url: ENV['start_url'],
   secret1: ENV['secret1'],

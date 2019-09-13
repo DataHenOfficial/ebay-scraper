@@ -5,7 +5,7 @@ nokogiri = Nokogiri.HTML(content)
 listings = nokogiri.css('ul.b-list__items_nofooter li.s-item')
 
 outputs << {
-  _collection: 'env_vars',
+  _collection: 'input_vars',
   _id: 'parser',
   start_url: ENV['start_url'],
   secret1: ENV['secret1'],
