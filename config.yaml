@@ -15,7 +15,4 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
-schemas:
-  - file: ./schemas/listings.json
-    collections: "listings,details,products"
-    disabled: false
+schema_config: ./schemas/config.yaml
