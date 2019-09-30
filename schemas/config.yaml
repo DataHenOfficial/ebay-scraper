@@ -1,4 +1,4 @@
 schemas:
   - file: ./schemas/listings.json
-    collections: "listings,details,products"
+    collections: "listings,details,products,seeder,finisher"
     disabled: false
