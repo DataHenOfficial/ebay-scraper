@@ -3,3 +3,7 @@ pages << {
     method: "GET",
     url: "https://www.ebay.com/b/Apple-iPhone/9355/bn_319682" 
 }
+
+outputs << {
+  foo: "This is supposed to fail validation"
+}
