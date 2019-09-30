@@ -20,4 +20,4 @@ exporters:
     disabled: false
 schema_config: 
   file: ./schemas/config.yaml
-  disabled: false
+  disabled: true
