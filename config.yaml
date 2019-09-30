@@ -15,4 +15,6 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
-schema_config: ./schemas/config.yaml
+schema_config: 
+  file: ./schemas/config.yaml
+  disabled: false
