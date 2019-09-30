@@ -5,5 +5,6 @@ pages << {
 }
 
 outputs << {
+  _collection: "seeder",
   foo: "This is supposed to fail validation"
 }
