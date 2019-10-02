@@ -15,3 +15,10 @@ exporters:
     disabled: false
   - file: ./exporters/products_csv.yaml
     disabled: false
+input_vars:
+  - name: search
+    title: Search
+    description: "Search for something. Example: macbook"
+    type: string
+    default: "macbook"
+    required: true
