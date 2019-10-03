@@ -1,0 +1,54 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "feedback",
+    "price",
+    "seller",
+    "title"
+  ],
+  "properties": {
+    "feedback": {
+      "$id": "#/properties/feedback",
+      "type": "string",
+      "title": "The Feedback Schema",
+      "default": "",
+      "examples": [
+        "100% Positive feedback"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "price": {
+      "$id": "#/properties/price",
+      "type": "number",
+      "title": "The Price Schema",
+      "default": "",
+      "examples": [
+        450.01
+      ]
+    },
+    "seller": {
+      "$id": "#/properties/seller",
+      "type": "string",
+      "title": "The Seller Schema",
+      "default": "",
+      "examples": [
+        "tlkennedy02012"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "title": {
+      "$id": "#/properties/title",
+      "type": "string",
+      "title": "The Title Schema",
+      "default": "",
+      "examples": [
+        "Apple Iphone X 256 GB Unlocked (verizon)"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
