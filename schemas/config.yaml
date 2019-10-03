@@ -1,0 +1,3 @@
+schemas:
+  - file: ./schemas/details.json
+  collection: details
