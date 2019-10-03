@@ -7,7 +7,7 @@ seller = nokogiri.at_css('.si-inner .mbg-nw')&.text
 # get the seller's feedback 
 feedback = nokogiri.at_css('.si-inner #si-fb')&.text
 
-price = nokogiri.at_css('#prcIsum')&.text.match(/\d+\.*\d*/)[0].to_f
+price = nokogiri.at_css('#prcIsum')&.text.to_s.match(/\d+\.*\d*/)[0].to_s.to_f
 
 # save it into outputs
 outputs << {
