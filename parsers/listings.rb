@@ -2,10 +2,11 @@
 nokogiri = Nokogiri.HTML(content)
 
 # get the group of listings
-listings = nokogiri.css('ul.b-list__items_nofooter li.s-item')
+listings = nokogiri.css('li.s-item')
 
 # loop through the listings
 listings.each do |listing|
+
     # initialize an empty hash
     product = {}
     
@@ -18,6 +19,9 @@ listings.each do |listing|
     # extract the listing URL
     item_link = listing.at_css('a.s-item__link')
     product['url'] = item_link['href'] unless item_link.nil?
+
+    # if there is no link, skip it
+    next if item_link.nil? || item_link['href'].nil?
 
     # specify the collection where this record will be stored
     product['_collection'] = "listings"
