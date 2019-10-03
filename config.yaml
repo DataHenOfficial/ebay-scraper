@@ -23,5 +23,5 @@ input_vars:
     default: "macbook"
     required: true
 schemas:
-  - file: ./schemas/details.json
-    collections: details
+  - file: ./schemas/products.json
+    collections: products
