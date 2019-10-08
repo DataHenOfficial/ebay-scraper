@@ -25,6 +25,7 @@
       "$id": "#/properties/price",
       "type": "number",
       "title": "The Price Schema",
+      "description": "The description of the price schema",
       "default": 0.0,
       "examples": [
         450.99
