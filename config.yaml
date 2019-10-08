@@ -23,5 +23,5 @@ input_vars:
     default: "macbook"
     required: true
 schema_config:
-  - file: ./schemas/config.yaml
-    disabled: false
+  file: ./schemas/config.yaml
+  disabled: false
