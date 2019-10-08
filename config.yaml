@@ -22,6 +22,6 @@ input_vars:
     type: string
     default: "macbook"
     required: true
-schemas:
-  - file: ./schemas/products.json
-    collections: products
+schema_config:
+  - file: ./schemas/config.yaml
+    disabled: false
